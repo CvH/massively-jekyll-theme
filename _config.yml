@@ -9,7 +9,9 @@ author: LibreELEC
 
 # social settings
 github_url: https://github.com/LibreELEC/LibreELEC.tv
+reddit_url: https://www.reddit.com/r/LibreELEC
 twitter_url: https://twitter.com/LibreELEC
+youtube_url: https://www.youtube.com/channel/UC7FSO0rXOtO6w_poBLvvjDw
 
 # build settings
 markdown: kramdown
