@@ -1,11 +1,11 @@
 # site settings
-title: Massively
-subtitle: by HTML5 UP
+title: LibreELEC
+subtitle: Just enough OS for KODI
 email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Just enough OS for KODI
 baseurl: "/massively-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
+author: LibreELEC
 street_address: 1234 Somewhere Road
 city: Nashville
 state: TN
@@ -16,7 +16,7 @@ phone: (716) 555-5555
 # social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/andrewbanchich
+github_url: https://github.com/LibreELEC/LibreELEC.tv
 gitlab_url: https://gitlab.com/u/andrewbanchich
 googleplus_url:
 instagram_url:
