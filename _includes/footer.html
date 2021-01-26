@@ -1,50 +1,18 @@
 		</div>
 
 		<!-- Footer -->
-		<footer id="footer" action="https://formspree.io/{{ site.email }}" method="POST">
-				<section>
-						<form method="post" action="#">
-								<div class="field">
-									  <label for="name">Name</label>
-									  <input type="text" name="name" id="name" />
-								</div>
-								<div class="field">
-									  <label for="email">Email</label>
-									  <input type="text" name="_replyto" id="email" />
-								</div>
-								<div class="field">
-									  <label for="message">Message</label>
-									  <textarea name="message" id="message" rows="3"></textarea>
-								</div>
-								<ul class="actions">
-									  <li><input type="submit" value="Send Message" /></li>
-								</ul>
-						</form>
-				</section>
+		<footer id="footer">
 				<section class="split contact">
-						<section class="alt">
-								<h3>Address</h3>
-								<p>{{ site.street_address }}<br />
-								    {{ site.city }}, {{ site.state }} {{ site.zip_code }}</p>
-						</section>
 						<section>
-								<h3>Phone</h3>
-								<p><a href="#">{{ site.phone }}</a></p>
-						</section>
-						<section>
-								<h3>Email</h3>
-								<p><a href="#">{{ site.email }}</a></p>
-						</section>
-						<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-										{% if site.twitter_url %}
+							<h3>Social</h3>
+							<ul class="icons alt">
+							{% if site.twitter_url %}
 				            <li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				            {% endif %}
 				            {% if site.github_url %}
 				            <li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 				            {% endif %}
-                </ul>
+                            </ul>
 						</section>
 				</section>
 		</footer>
