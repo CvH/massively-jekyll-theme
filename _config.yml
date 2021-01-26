@@ -14,15 +14,7 @@ country: United States of America
 phone: (716) 555-5555
 
 # social settings
-500px_url:
-facebook_url:
 github_url: https://github.com/LibreELEC/LibreELEC.tv
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
 twitter_url: https://twitter.com/andrewbanchich
 
 # build settings
